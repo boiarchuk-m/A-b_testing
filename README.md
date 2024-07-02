@@ -15,4 +15,4 @@ Results: Summarized findings and conclusions drawn from the experiment.
 ### Repository files
 - `A_b_test.ipynb` Jupyter notebook with a test 
 - `ab_test_control.csv` control group data
-- `ab_test_variant.csv1 variant group data
+- `ab_test_variant.csv` variant group data
