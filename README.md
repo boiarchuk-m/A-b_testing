@@ -1,5 +1,5 @@
 ## Project description 
-This repository contains the implementation and analysis of an A/B test conducted on Lit Lantern, a fiction mobile reading app. The project aims to optimize user engagement through a series of experiments focusing on click-through rates (CTR), session duration, and session frequency.
+This repository contains the implementation and analysis of an A/B test conducted on Lit Lantern, a fiction mobile reading app. The project aims to optimize user engagement through an A/B test.
 
 ## Key Features:
 
