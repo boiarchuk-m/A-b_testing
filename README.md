@@ -1,16 +1,17 @@
-## Project description 
-This repository contains the implementation and analysis of an A/B test conducted on Lit Lantern, a fiction mobile reading app. The project aims to optimize user engagement through a series of experiments focusing on click-through rates (CTR), session duration, and session frequency.
-
-## Key Features:
-
-
-Experiment Design: Detailed design and rationale behind the A/B test, including hypothesis formulation and metric selection.  
-
-Implementation: Codebase for setting up and running the A/B test, ensuring randomized assignment of users to control and treatment groups.  
-
-Data Analysis: Scripts and notebooks for analyzing experiment results, including statistical significance tests and visualizations.  
-
-Results: Summarized findings and conclusions drawn from the experiment.  
+# A/B Test Analysis: Premium Offer Page Conversion Optimization
+## Project Overview
+This project analyzes an A/B test evaluating the impact of a redesigned premium offer page on conversion rates for Lit Lantern, a mobile e-book and audiobook app.
+## Business Context
+Lit Lantern uses a freemium model offering users a 7-day premium trial. The goal was to increase the percentage of free users who convert to premium trials by redesigning the offer page with improved messaging and visual hierarchy.
+## Test Design
+### Hypothesis
+- **Null Hypothesis (H₀):** No difference in conversion rates between variants
+- **Alternative Hypothesis (H₁):** Variant B achieves ≥5% higher conversion rate
+- **Significance Level:** α = 0.05
+- **Statistical Power:** 0.80
+### Metrics
+- **Primary:** Conversion rate (% users starting premium trial)
+- **Guardrails:** Session duration, sessions per user
 
 ### Repository files
 - `A_b_test.ipynb` Jupyter notebook with a test 
